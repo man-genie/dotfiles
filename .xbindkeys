@@ -1,0 +1,15 @@
+#Mute volume
+"amixer set Master toggle"
+  XF86AudioMute
+
+#Unmute volume
+"amixer -D pulse set Master 1+ unmute"
+	Mod4 + F11
+
+#Volume up
+"amixer set Master playback 3dB+"
+	XF86AudioRaiseVolume
+
+#Volume down
+"amixer set Master playback 3dB-"
+	XF86AudioLowerVolume

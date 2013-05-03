@@ -1,0 +1,5 @@
+URxvt.background:#070708
+URxvt.foreground:#afafaf
+URxvt.font: xft:drift:size=18
+URxvt.scrollBar:false
+URxvt.geometry:57x40

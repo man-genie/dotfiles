@@ -1,0 +1,14 @@
+turn off touchpad
+synclient TouchpadOff=1
+
+turn on touchpad
+synclient TouchpadOff=0
+
+suspend
+sudo pm-suspend
+
+cs187 ssh
+ssh username@elnux.cs.umass.edu
+
+secure copy
+scp file.java file2.java username@elnux.cs.umass.edu:cs187/p
